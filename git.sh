@@ -8,6 +8,7 @@ else
   echo "undocumented Changes of Version $version"
   git commit -m "undocumented Changes of Version $version"
 fi
-git push -u --set-upstream origin master
+#git push -u --set-upstream origin master
+git push -u --set-upstream origin master --force
 
 
